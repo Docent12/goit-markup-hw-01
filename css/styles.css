@@ -28,9 +28,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px;
+        padding: 0;
         background-color: #fff;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     }
     .logo 
     {   font-family: Raleway ,sans-serif;
@@ -51,9 +51,9 @@
       .main-navi {
         display: flex;
         list-style: none;
-        margin: 0;
-        padding: 0;
-      }
+         margin: 0;
+         padding: 0;
+      } 
       
       .main-navi li {
         margin-left: 60px;
@@ -82,5 +82,5 @@
       
       .main-navi-mail:hover,
       .main-navi-tel:hover {
-        color: #ff8c00;
+        color: #db20ad;
       }
